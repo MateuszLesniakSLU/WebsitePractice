@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+    <body>
+    <div class="container">
+        <h1>London pet shelter</h1>
+        <p>Amount of places: 100</p>
+        <form>
+            <input type="text" placeholder="Pet name" id="petName">
+            <input type="text" placeholder="Pet age" id="petAge">
+            <input type="text" placeholder="Gender" id="petGender">
+        </form>
+        <button id="addPet" onclick="addPetToList()">Add Pet</button>
+        <button id="removePet">Remove Pet</button>
+        <button id="petStatus">Check Status</button>
+        <div class="tableContainer">
+        <p>list of pets</p>
+        <table id="petTable">
+            <tr>
+            <td id="trName">Name</td>
+            <td id="trAge">Age</td>
+            <td id="trGender">Gender</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+    </body>
+</html>
+
+
+<!--onclick="petStatusOnClick()"-->
